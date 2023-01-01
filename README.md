@@ -18,3 +18,12 @@ npm ci
 yarn
 ```
 
+## scripts
+
+### `2wasm`
+
+Generates a wasm binary file in the same directory as the specified `.wat` file. For example, running the script with the single argument below will generate a `.wasm` binary file at the path `./src/02/loop.wasm`.
+
+```sh
+yarn 2wasm ./src/02/loop.wat
+``
