@@ -26,4 +26,4 @@ Generates a wasm binary file in the same directory as the specified `.wat` file.
 
 ```sh
 yarn 2wasm ./src/02/loop.wat
-``
+```
