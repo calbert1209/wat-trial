@@ -6,5 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "wat-wasm": "^1.0.43"
+  },
+  "scripts": {
+    "2wasm": "node ./scripts/generateWasm.js"
   }
 }
